@@ -13,6 +13,7 @@ if [ -z "$IM_USER" ] || [ -z "$IM_PASS" ] || [ -z "$OPENSTACK_USER" ] || [ -z "$
 fi
 printf "$(cat /im/auth.dat)" "${IM_USER}" "${IM_PASS}" "${OPENSTACK_USER}" "${OPENSTACK_PASS}" > /im/auth.dat
 echo "Generated auth.dat file:"
+cat /im/auth.dat
 ls -l /im/auth.dat
 echo "Printing IM config file: github.com/orviz/IM-sqaaas-test/test.radl"
 cat github.com/orviz/IM-sqaaas-test/test.radl

@@ -20,6 +20,6 @@ sqa_criteria:
     repos:
       github.com/orviz/IM-sqaaas-test im_client:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-buff-frigatebird.sh
-        container: svcqc.dep_gummy-grey-caiman
+        - /usr/bin/env sh .sqa/script.chewy-scarlet-duck.sh
+        container: svcqc.dep_wimpy-gold-gerbil
 timeout: 600

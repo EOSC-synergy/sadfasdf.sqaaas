@@ -1,5 +1,5 @@
 services:
-  svcqc.dep_gummy-grey-caiman:
+  svcqc.dep_wimpy-gold-gerbil:
     entrypoint:
     - /bin/sleep
     - infinity

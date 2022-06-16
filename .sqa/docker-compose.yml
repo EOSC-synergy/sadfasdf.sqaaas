@@ -1,5 +1,5 @@
 services:
-  svcqc.dep_squeaky-ochre-tarantula:
+  svcqc.dep_gummy-grey-caiman:
     entrypoint:
     - /bin/sleep
     - infinity

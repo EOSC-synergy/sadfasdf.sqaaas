@@ -1,4 +1,6 @@
-(mkdir /im
+(
+
+cp test.radl github.com/orviz/IM-sqaaas-test/test.radlmkdir /im
 cat <<EOF >> /im/auth.dat
 # InfrastructureManager auth
 type = InfrastructureManager; username = %s; password = %s
